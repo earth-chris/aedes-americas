@@ -1,0 +1,14 @@
+name: aedes
+
+channels:
+  - conda-forge
+  - orfeotoolbox
+
+dependencies:
+  - python=3.7
+  - jupyter=1.0.0
+  - matplotlib=3.2.1
+  - otb=7.1.0
+  - pandas
+  - pip
+  - scikit-learn=0.22.1
