@@ -8,6 +8,13 @@ Link to paper.
 
 This repository contains the code and notebooks used to generate and reproduce the results from this paper.
 
+**Contents**
+
+- [Setup](#setup)
+- [Data access](#data-access)
+- [Running notebooks](#running-the-notebooks)
+- [Citations and DOIs](#citations-and-dois)
+
 ## Setup
 
 This workflow is designed to install and run via `conda`. You can find `conda` install instructions [here][home-conda]. 
@@ -36,6 +43,7 @@ python setup.py install
 conda env config vars set IPYTHONDIR=$PWD/ipython
 ```
 
+## Data access
 
 
 ## Running the notebooks
@@ -46,6 +54,13 @@ jupyter notebook
 ```
 
 From this directory, notebooks are organized into the `data-processing`, `modeling` and `plots-and-analysis` directories. Load and explore these notebooks to understand their functions.
+
+
+## Citations and DOIs
+
+- *Aedes aegypti* occurrence data (GBIF): [https://doi.org/10.15468/dl.4ua41t](https://doi.org/10.15468/dl.4ua41t)
+- *Aedes albopictus* occurrence data (GBIF): [https://doi.org/10.15468/dl.a6tdnn](https://doi.org/10.15468/dl.a6tdnn)
+- *Culicidae* occurrence data (GBIF): [https://doi.org/10.15468/dl.vhsf2q](https://doi.org/10.15468/dl.vhsf2q)
 
 
 [home-ccb]: https://github.com/stanford-ccb/ccb
