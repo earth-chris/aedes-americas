@@ -1,2 +1,6 @@
 ccb/*
 .zedstate
+data-raw/*
+data-mx-in/*
+data-mx-out/*
+*/.ipynb_checkpoints/*
