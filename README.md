@@ -1,6 +1,6 @@
 # aedes-americas
 
-Continental-scale species distribution modeling for Aedes aegypti and Ae. albopictus, the mosquito vectors of dengue, chikungunya and Zika.
+Continental-scale species distribution modeling for Aedes aegypti and Ae. albopictus, the mosquito vectors of dengue, chikungunya and Zika. This study covers the extent of Latin America and the Caribbean (LACR).
 
 ## Introduction
 
@@ -36,12 +36,13 @@ The one non-traditional dependency here is the `ccb` package, a python wrapper f
 # download and install the ccb package
 git clone https://github.com/stanford-ccb/ccb.git
 cd ccb
-pip install -r requirements.txt
-python setup.py install
+pip install -r requirements.txt .
 
 # the following is optional to use the ccb default ipython config
 conda env config vars set IPYTHONDIR=$PWD/ipython
 ```
+
+
 
 ## Data access
 
