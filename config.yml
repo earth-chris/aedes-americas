@@ -1,0 +1,23 @@
+# the directory where all raw and temporary datasets will be downloaded and processed
+data-dir: /external/aedes-americas/data-raw/
+
+# set where the maxent input files will go
+data-mx-in: /external/aedes-americas/data-mx-in/
+data-mx-out: /external/aedes-americas/data-mx-out/
+
+# the output map projection
+epsg: 54009
+
+# set the nodata value
+nodata: -9999
+
+# the nominal grid sizes for each raw data type (in meters)
+nominal-grid-size:
+    lai: 500
+    lst: 1000
+    cld: 5000
+    pop: 100
+    tc: 100
+    
+# the output grid sizes for multi-scale analysis (in meters)
+analytic-grid-size: [1000, 5000, 10000, 50000, 100000]
